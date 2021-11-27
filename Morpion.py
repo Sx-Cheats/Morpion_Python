@@ -106,7 +106,7 @@ class Morpion:
 
             system('clear')
             output_matrice(self.matrice_game)
-            #self.turn = not self.turn
+            self.turn = not self.turn
             if self.calc_matrice(self.__PLAYER1[2]):
                 self.turn = self.__PLAYER1
                 break
