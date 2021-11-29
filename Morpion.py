@@ -78,11 +78,6 @@ class Morpion:
         else:
           return 0
 
-    
-
-         
-
-    
     def who_won(self):
         self.turn.append(self.matrice_game)
         return self.turn
