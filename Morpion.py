@@ -29,10 +29,7 @@ def get_data_bdd(match_n):
          print("Match N° ",data_fetchall[0][0],'\n————————————————')
          print("Player WON : ",data_fetchall[0][1],'\n—————————————————————')
          print("Player WON Signe : ",data_fetchall[0][2],'\n—————————————————————')
-         output_matrice(eval(data_fetchall[0][3]))
-             
-
-
+         output_matrice(eval(data_fetchall[0][3]))          
 
 class Morpion:
     def __init__(self,**Data):
